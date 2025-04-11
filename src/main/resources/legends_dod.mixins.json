@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.donut.legends_dod_neoforge.mixin",
+  "package": "net.donut.legends_dod.mixin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "legends_dod_neoforge.refmap.json",
   "mixins": [

@@ -1,0 +1,27 @@
+{
+  "itemGroup.legends_dod": "Example Mod Tab",
+  "block.legends_dod.example_block": "Example Block",
+  "item.legends_dod.legend_shard": "Legend Shard",
+  "item.legends_dod.raw_legend_shard": "Raw Legend Shard",
+  "item.legends_dod.legend_star": "Legend Star",
+
+  "item.legends_dod.normal_essence": "Normal Essence",
+  "item.legends_dod.fire_essence": "Fire Essence",
+  "item.legends_dod.water_essence": "Water Essence",
+  "item.legends_dod.grass_essence": "Grass Essence",
+  "item.legends_dod.rock_essence": "Rock Essence",
+  "item.legends_dod.electric_essence": "Electric Essence",
+  "item.legends_dod.poison_essence": "Poison Essence",
+  "item.legends_dod.psychic_essence": "Psychic Essence",
+  "item.legends_dod.ground_essence": "Ground Essence",
+  "item.legends_dod.flying_essence": "Flying Essence",
+  "item.legends_dod.bug_essence": "Bug Essence",
+  "item.legends_dod.ghost_essence": "Ghost Essence",
+  "item.legends_dod.steel_essence": "Steel Essence",
+  "item.legends_dod.fighting_essence": "Fighting Essence",
+  "item.legends_dod.ice_essence": "Ice Essence",
+  "item.legends_dod.dragon_essence": "Dragon Essence",
+  "item.legends_dod.dark_essence": "Dark Essence",
+  "item.legends_dod.fairy_essence": "Fairy Essence"
+
+}
