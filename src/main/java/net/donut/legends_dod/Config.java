@@ -1,4 +1,4 @@
-package net.donut.legends_dod_neoforge;
+package net.donut.legends_dod;
 
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
