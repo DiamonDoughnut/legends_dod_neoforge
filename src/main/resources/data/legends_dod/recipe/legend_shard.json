@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "legends_dod:legend_shard_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "legends_dod:legend_shard"
+  }
+}

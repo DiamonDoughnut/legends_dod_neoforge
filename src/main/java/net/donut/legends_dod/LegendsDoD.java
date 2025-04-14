@@ -1,6 +1,8 @@
 package net.donut.legends_dod;
 
 import com.mojang.logging.LogUtils;
+import net.donut.legends_dod.block.ModBlocks;
+import net.donut.legends_dod.item.ModCreativeModeTabs;
 import net.donut.legends_dod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.api.distmarker.Dist;
@@ -37,7 +39,10 @@ public class LegendsDoD {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -52,29 +57,7 @@ public class LegendsDoD {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.LEGEND_SHARD);
-            event.accept(ModItems.RAW_LEGEND_SHARD);
-            event.accept(ModItems.LEGEND_STAR);
-            event.accept(ModItems.BUG_ESSENCE);
-            event.accept(ModItems.DARK_ESSENCE);
-            event.accept(ModItems.DRAGON_ESSENCE);
-            event.accept(ModItems.ELECTRIC_ESSENCE);
-            event.accept(ModItems.FAIRY_ESSENCE);
-            event.accept(ModItems.FIGHTING_ESSENCE);
-            event.accept(ModItems.FIRE_ESSENCE);
-            event.accept(ModItems.FLYING_ESSENCE);
-            event.accept(ModItems.GHOST_ESSENCE);
-            event.accept(ModItems.GRASS_ESSENCE);
-            event.accept(ModItems.GROUND_ESSENCE);
-            event.accept(ModItems.ICE_ESSENCE);
-            event.accept(ModItems.NORMAL_ESSENCE);
-            event.accept(ModItems.POISON_ESSENCE);
-            event.accept(ModItems.PSYCHIC_ESSENCE);
-            event.accept(ModItems.ROCK_ESSENCE);
-            event.accept(ModItems.STEEL_ESSENCE);
-            event.accept(ModItems.WATER_ESSENCE);
-        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

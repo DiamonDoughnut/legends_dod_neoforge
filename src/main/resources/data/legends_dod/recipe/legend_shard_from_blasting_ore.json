@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cooking time": 100,
+  "experience": 0.5,
+  "group": "legend",
+  "ingredient": {
+    "item": "legends_dod:legend_ore"
+  },
+  "result": {
+    "count": 1,
+    "id": "legends_dod:legend_shard"
+  }
+}
